@@ -8,7 +8,7 @@ In the older days, you can extract from VMware Player installer, and it removed 
 So I decided to create an open source UI, like vmnetcfg.
 
 ## Progress
-I have created a wrap library for vnetlib.dll, which work fine.
+I have created a wrap library (https://github.com/buaabyl/openvmnetcfg/blob/master/libvnetlib.c) for vnetlib.dll, which work fine.
 And wrote a small demo which show current IP,DNS information, and can change IP and DNS setting by api.
 All this code compiled under MinGW32-W64 GCC 5.4.0
 
@@ -29,4 +29,6 @@ All this code compiled under MinGW32-W64 GCC 5.4.0
 [stackoverflow.com: Assign IP to VMware Player](http://stackoverflow.com/questions/13153399/assign-ip-to-vmware-player)
 
 [sanbarrow.com: Command Guide to Workstation](http://sanbarrow.com/network/cmdguide2workstation.html)
+
+
 
