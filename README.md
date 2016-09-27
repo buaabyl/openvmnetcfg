@@ -1,5 +1,11 @@
 # openvmnetcfg
-An open source implement of vmnetcfg
+An open source implement of vmnetcfg.
+
+VMware VMNetcfg is a useful tool, you can change IP, DNS, NAT quickly. But begin from VMware Player 3.x, it have been removed from then standard installer. You must extract from Workstation version, painful...
+
+In the older days, you can extract from VMware Player installer, and it removed from the installer from VMware Player 5.x... But we still have vmnetui.dll,VMNetUI_ShowStandalone. But now is removed too... We have to extract from Workstation, but it really huge(500MB+).
+
+So I decided to create an open source UI, like vmnetcfg.
 
 - [X] create a library for vnetlib.dll
 - [ ] create a simple demo which can change ip and dns
