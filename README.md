@@ -7,6 +7,8 @@ In the older days, you can extract from VMware Player installer, and it removed 
 
 So I decided to create an open source UI, like vmnetcfg.
 
+VMware have debug log, so I can change debug level, and the log can be verbose, make the parameters guess easier. But I am not sure current parameters is correct, If you crash, just create an Issues.
+
 ## Progress
 I have created a wrap library (https://github.com/buaabyl/openvmnetcfg/blob/master/libvnetlib.c) and guess api (https://github.com/buaabyl/openvmnetcfg/blob/master/vnetlib.h) for vnetlib.dll, which work fine.
 And wrote a small demo which show current IP,DNS information, and can change IP and DNS setting by api.
