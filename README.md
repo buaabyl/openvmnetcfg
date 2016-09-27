@@ -1,9 +1,9 @@
 # openvmnetcfg
 An open source implement of vmnetcfg
 
-1. [**DONE**] create a library for vnetlib.dll
-2. [ ] create a simple demo which can change ip and dns
-3. [ ] create a Qt5 based vmnetcfg UI.
+- [X] create a library for vnetlib.dll
+- [ ] create a simple demo which can change ip and dns
+- [ ] create a Qt5 based vmnetcfg UI.
 
 All this code compiled under MinGW32-W64 GCC 5.4.0
 
