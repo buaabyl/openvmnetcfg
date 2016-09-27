@@ -1,0 +1,533 @@
+vnetlib64.dll: PE32+ executable (DLL) (GUI) x86_64 (Wed Sep 07 10:28:07 2016)
+  Sections
+    RVA        OFFSET    
+    ---------- ----------
+    0x00001000 0x00000400
+    0x00098000 0x00096600
+    0x000f5000 0x000f3600
+    0x0010f000 0x00108a00
+    0x00118000 0x00110e00
+    0x00119000 0x00111c00
+
+  Import KERNEL32.dll
+    Hint     Name
+    -------- --------
+    0x0464   SetEnvironmentVariableA
+    0x0064   CompareStringW
+    0x0061   CompareStringA
+    0x029f   GetTimeZoneInformation
+    0x020c   GetLocaleInfoW
+    0x02dc   HeapSize
+    0x032f   LCMapStringW
+    0x032d   LCMapStringA
+    0x0270   GetStringTypeW
+    0x0369   MultiByteToWideChar
+    0x026d   GetStringTypeA
+    0x030e   IsValidLocale
+    0x0112   EnumSystemLocalesA
+    0x020a   GetLocaleInfoA
+    0x02a3   GetUserDefaultLCID
+    0x029c   GetTimeFormatA
+    0x01cd   GetDateFormatA
+    0x02eb   InitializeCriticalSectionAndSpinCount
+    0x033e   LoadLibraryA
+    0x0168   FreeLibrary
+    0x0418   RtlCaptureContext
+    0x041f   RtlLookupFunctionEntry
+    0x0426   RtlVirtualUnwind
+    0x0302   IsDebuggerPresent
+    0x04b3   SetUnhandledExceptionFilter
+    0x04e2   UnhandledExceptionFilter
+    0x01c6   GetCurrentProcess
+    0x04ce   TerminateProcess
+    0x0534   WriteFile
+    0x02da   HeapReAlloc
+    0x02d3   HeapAlloc
+    0x030c   IsValidCodePage
+    0x023e   GetOEMCP
+    0x016e   GetACP
+    0x0178   GetCPInfo
+    0x00f2   EnterCriticalSection
+    0x033b   LeaveCriticalSection
+    0x0280   GetSystemTimeAsFileTime
+    0x01c7   GetCurrentProcessId
+    0x029a   GetTickCount
+    0x03a9   QueryPerformanceCounter
+    0x0425   RtlUnwindEx
+    0x02d6   HeapDestroy
+    0x02d5   HeapCreate
+    0x02db   HeapSetInformation
+    0x01e1   GetEnvironmentStringsW
+    0x0520   WideCharToMultiByte
+    0x0167   FreeEnvironmentStringsW
+    0x01df   GetEnvironmentStrings
+    0x0166   FreeEnvironmentStringsA
+    0x0219   GetModuleFileNameA
+    0x00d2   DeleteCriticalSection
+    0x0269   GetStartupInfoA
+    0x026b   GetStdHandle
+    0x047c   SetHandleCount
+    0x011f   ExitProcess
+    0x024c   GetProcAddress
+    0x021e   GetModuleHandleW
+    0x04c0   Sleep
+    0x02d7   HeapFree
+    0x0158   FlsAlloc
+    0x0208   GetLastError
+    0x028c   GetTempPathW
+    0x0474   SetFilePointer
+    0x00e8   DosDateTimeToFileTime
+    0x02ac   GetVersionExW
+    0x0359   MapViewOfFile
+    0x04e5   UnmapViewOfFile
+    0x01e3   GetEnvironmentVariableW
+    0x008f   CreateFileW
+    0x027a   GetSystemInfo
+    0x0340   LoadLibraryExW
+    0x01fa   GetFileType
+    0x0461   SetEndOfFile
+    0x021d   GetModuleHandleExW
+    0x0341   LoadLibraryW
+    0x02ab   GetVersionExA
+    0x0467   SetEvent
+    0x00b4   CreateThread
+    0x0151   FindResourceA
+    0x04bf   SizeofResource
+    0x021b   GetModuleHandleA
+    0x00a8   CreateProcessW
+    0x0508   WaitForSingleObject
+    0x01e6   GetExitCodeProcess
+    0x0362   MoveFileExW
+    0x0251   GetProcessHeap
+    0x0075   CopyFileW
+    0x0081   CreateDirectoryW
+    0x0164   FormatMessageW
+    0x0277   GetSystemDirectoryW
+    0x01f1   GetFileAttributesW
+    0x046f   SetFileAttributesW
+    0x00c0   CreateWaitableTimerA
+    0x0082   CreateEventA
+    0x0412   ResetEvent
+    0x012a   FileTimeToLocalFileTime
+    0x012b   FileTimeToSystemTime
+    0x027e   GetSystemTime
+    0x04cb   SystemTimeToFileTime
+    0x04ba   SetWaitableTimer
+    0x0047   CancelWaitableTimer
+    0x015d   FlushFileBuffers
+    0x0421   RtlPcToFileHeader
+    0x01b2   GetConsoleMode
+    0x01a0   GetConsoleCP
+    0x03b4   RaiseException
+    0x0088   CreateFileA
+    0x02ea   InitializeCriticalSection
+    0x00e1   DeviceIoControl
+    0x0123   ExpandEnvironmentStringsW
+    0x0052   CloseHandle
+    0x00d7   DeleteFileW
+    0x0346   LocalAlloc
+    0x034a   LocalFree
+    0x01b6   GetConsoleOutputCP
+    0x0529   WriteConsoleA
+    0x0494   SetStdHandle
+    0x0533   WriteConsoleW
+    0x04d4   TlsFree
+    0x03c3   ReadFile
+    0x04d6   TlsSetValue
+    0x01e7   GetExitCodeThread
+    0x0387   OpenThread
+    0x04d5   TlsGetValue
+    0x0557   lstrcmpiA
+    0x0480   SetLastError
+    0x0159   FlsFree
+    0x015a   FlsGetValue
+    0x04d3   TlsAlloc
+    0x00cb   DecodePointer
+    0x00ee   EncodePointer
+    0x018c   GetCommandLineA
+    0x015b   FlsSetValue
+    0x01cb   GetCurrentThreadId
+    0x0089   CreateFileMappingA
+
+  Import WS2_32.dll
+    Hint     Name
+    -------- --------
+    0x000c   (NONAME)
+    0x000e   (NONAME)
+    0x0017   (NONAME)
+    0x0073   (NONAME)
+    0x0012   (NONAME)
+    0x0011   (NONAME)
+    0x006f   (NONAME)
+    0x0003   (NONAME)
+    0x0008   (NONAME)
+    0x000b   (NONAME)
+    0x0014   (NONAME)
+
+  Import ADVAPI32.dll
+    Hint     Name
+    -------- --------
+    0x01f7   OpenProcessToken
+    0x001f   AdjustTokenPrivileges
+    0x0278   RegSaveKeyW
+    0x0020   AllocateAndInitializeSid
+    0x0183   IsValidAcl
+    0x0177   InitializeSecurityDescriptor
+    0x02b6   SetSecurityDescriptorDacl
+    0x00b0   CryptAcquireContextA
+    0x00c1   CryptGenRandom
+    0x00cb   CryptReleaseContext
+    0x0191   LookupAccountSidW
+    0x00fc   EnumDependentServicesA
+    0x0239   RegCreateKeyExW
+    0x01f8   OpenSCManagerA
+    0x01fa   OpenServiceA
+    0x0238   RegCreateKeyExA
+    0x0081   CreateServiceW
+    0x00da   DeleteService
+    0x0224   QueryServiceConfigW
+    0x0050   ChangeServiceConfigW
+    0x004e   ChangeServiceConfig2W
+    0x0300   UnlockServiceDatabase
+    0x0188   LockServiceDatabase
+    0x0226   QueryServiceLockStatusW
+    0x00fd   EnumDependentServicesW
+    0x005c   ControlService
+    0x01f9   OpenSCManagerW
+    0x01fb   OpenServiceW
+    0x0057   CloseServiceHandle
+    0x02c6   StartServiceA
+    0x0228   QueryServiceStatus
+    0x0254   RegGetKeySecurity
+    0x0107   EqualSid
+    0x015a   GetTokenInformation
+    0x0194   LookupPrivilegeNameA
+    0x0192   LookupPrivilegeDisplayNameA
+    0x014e   GetSecurityInfo
+    0x0124   GetAclInformation
+    0x0176   InitializeAcl
+    0x0016   AddAce
+    0x02bb   SetSecurityInfo
+    0x0142   GetNamedSecurityInfoW
+    0x0185   IsValidSecurityDescriptor
+    0x0147   GetSecurityDescriptorControl
+    0x0134   GetInheritanceSourceW
+    0x0123   GetAce
+    0x011f   FreeInheritedFromArray
+    0x0252   RegEnumValueW
+    0x0248   RegDeleteValueW
+    0x02b1   SetNamedSecurityInfoW
+    0x0260   RegOpenKeyExA
+    0x024e   RegEnumKeyExA
+    0x0274   RegRestoreKeyW
+    0x0230   RegCloseKey
+    0x026e   RegQueryValueExW
+    0x024f   RegEnumKeyExW
+    0x0261   RegOpenKeyExW
+    0x027e   RegSetValueExW
+    0x02a6   SetEntriesInAclW
+    0x0244   RegDeleteKeyW
+    0x0120   FreeSid
+    0x0196   LookupPrivilegeValueA
+
+  Import SETUPAPI.dll
+    Hint     Name
+    -------- --------
+    0x01e0   SetupGetLineTextW
+    0x020b   SetupOpenInfFileW
+    0x0193   SetupDiOpenDevRegKey
+    0x013f   SetupDiDestroyDeviceInfoList
+    0x01a8   SetupDiSetClassInstallParamsW
+    0x013b   SetupDiDeleteDeviceInfo
+    0x0124   SetupDiCallClassInstaller
+    0x0173   SetupDiGetDeviceRegistryPropertyA
+    0x0142   SetupDiEnumDeviceInfo
+    0x0153   SetupDiGetClassDevsA
+    0x016b   SetupDiGetDeviceInstanceIdW
+    0x0168   SetupDiGetDeviceInstallParamsA
+    0x01b3   SetupDiSetDeviceRegistryPropertyW
+    0x0131   SetupDiCreateDeviceInfoA
+    0x0132   SetupDiCreateDeviceInfoList
+    0x0113   SetupCopyOEMInfW
+    0x0006   CMP_WaitNoPendingInstallEvents
+    0x0174   SetupDiGetDeviceRegistryPropertyW
+    0x0054   CM_Get_DevNode_Status
+    0x0156   SetupDiGetClassDevsW
+    0x012a   SetupDiClassGuidsFromNameW
+    0x0150   SetupDiGetClassDescriptionW
+    0x012e   SetupDiClassNameFromGuidW
+    0x0120   SetupDiBuildClassInfoList
+    0x0247   SetupSetNonInteractiveMode
+    0x01e3   SetupGetNonInteractiveMode
+    0x01df   SetupGetLineTextA
+    0x0109   SetupCloseInfFile
+    0x020a   SetupOpenInfFileA
+    0x01d3   SetupGetInfFileListA
+    0x0176   SetupDiGetDriverInfoDetailW
+    0x0140   SetupDiDestroyDriverInfoList
+    0x0145   SetupDiEnumDriverInfoW
+    0x0178   SetupDiGetDriverInstallParamsW
+    0x01d6   SetupGetInfInformationW
+    0x021a   SetupQueryInfOriginalFileInformationW
+    0x01ae   SetupDiSetDeviceInstallParamsW
+    0x0123   SetupDiBuildDriverInfoList
+    0x0169   SetupDiGetDeviceInstallParamsW
+
+  Import IPHLPAPI.DLL
+    Hint     Name
+    -------- --------
+    0x0054   GetIpAddrTable
+
+  Import USER32.dll
+    Hint     Name
+    -------- --------
+    0x00a6   DestroyWindow
+    0x01fd   LoadStringA
+    0x01fe   LoadStringW
+    0x01a8   GetWindowThreadProcessId
+    0x027b   SendMessageA
+    0x01df   IsWindow
+    0x00df   EnumChildWindows
+    0x006e   CreateWindowExW
+    0x0129   GetDlgItem
+
+  Import ole32.dll
+    Hint     Name
+    -------- --------
+    0x0070   CoUninitialize
+    0x0044   CoInitializeSecurity
+    0x006c   CoTaskMemFree
+    0x0067   CoSetProxyBlanket
+    0x0053   CoQueryProxyBlanket
+    0x0043   CoInitializeEx
+    0x0014   CoCreateInstance
+    0x01b5   StringFromGUID2
+
+  Import OLEAUT32.dll
+    Hint     Name
+    -------- --------
+    0x0019   (NONAME)
+    0x0006   (NONAME)
+    0x0014   (NONAME)
+    0x0011   (NONAME)
+    0x0002   (NONAME)
+    0x0008   (NONAME)
+    0x0013   (NONAME)
+    0x0007   (NONAME)
+    0x0009   (NONAME)
+    0x000f   (NONAME)
+    0x0010   (NONAME)
+    0x001a   (NONAME)
+
+  Import MPRAPI.dll
+    Hint     Name
+    -------- --------
+    0x005f   MprConfigServerDisconnect
+    0x005e   MprConfigServerConnect
+    0x004f   MprConfigGetFriendlyName
+
+  Import newdev.dll
+    Hint     Name
+    -------- --------
+    0x000c   UpdateDriverForPlugAndPlayDevicesW
+
+  Import SHELL32.dll
+    Hint     Name
+    -------- --------
+    0x00cd   SHGetKnownFolderPath
+    0x00c3   SHGetFolderPathW
+
+  Import RPCRT4.dll
+    Hint     Name
+    -------- --------
+    0x0203   UuidCreate
+
+  Import CRYPT32.dll
+    Hint     Name
+    -------- --------
+    0x004b   CertGetNameStringW
+    0x0035   CertFindCertificateInStore
+    0x0012   CertCloseStore
+    0x0040   CertFreeCertificateContext
+    0x001c   CertCreateCertificateContext
+    0x0057   CertOpenStore
+    0x0004   CertAddCertificateContextToStore
+
+  Import DIFXAPI.dll
+    Hint     Name
+    -------- --------
+    0x0003   DriverPackageGetPathW
+    0x000b   SetDifxLogCallbackW
+    0x0009   DriverPackageUninstallW
+    0x0005   DriverPackageInstallW
+
+  Import imagehlp.dll
+    Hint     Name
+    -------- --------
+    0x0015   ImageGetCertificateData
+    0x0014   ImageEnumerateCertificates
+
+  Import WINTRUST.dll
+    Hint     Name
+    -------- --------
+    0x0073   WinVerifyTrust
+
+  Export VNETLIB.dll
+    Ordinal  Hint     Entry      Name
+    -------- -------- ---------- --------
+    0x0001   0x0000   0x0000d2b0 VNL_AdapterCoinstaller
+    0x0002   0x0001   0x00010460 VNL_AssignSubnetAddressToVnet
+    0x0003   0x0002   0x00015b00 VNL_BackupDatabase
+    0x0004   0x0003   0x000156d0 VNL_BackupDatabaseInRegistry
+    0x0005   0x0004   0x000163a0 VNL_CheckHostPacketFilterLog
+    0x0006   0x0005   0x00016e70 VNL_CloseHostPacketFilter
+    0x0007   0x0006   0x00016b10 VNL_CloseHostPacketFilterLog
+    0x0008   0x0007   0x0001bb90 VNL_ConnectVnetAdapter
+    0x0009   0x0008   0x0001bce0 VNL_ConnectVnetSwitch
+    0x000a   0x0009   0x00014280 VNL_DeleteNetLibDatabase
+    0x000b   0x000a   0x00011220 VNL_DeleteVnetFromDatabase
+    0x000c   0x000b   0x00020040 VNL_DisableIntelRLB
+    0x000d   0x000c   0x00021b40 VNL_DisableNetworkAdapter
+    0x000e   0x000d   0x00021c80 VNL_EnableNetworkAdapter
+    0x000f   0x000e   0x00025520 VNL_EnumDHCPIPToMAC
+    0x0010   0x000f   0x000276f0 VNL_EnumNATPortForward
+    0x0011   0x0010   0x00028220 VNL_EnumNATPrivPort
+    0x0012   0x0011   0x00015880 VNL_ExportDatabaseToFile
+    0x0013   0x0012   0x0001b870 VNL_FindVNetWithFeatures
+    0x0014   0x0013   0x00024260 VNL_GetAdapterActualAddr
+    0x0015   0x0014   0x00029920 VNL_GetBridgeHints
+    0x0016   0x0015   0x00029f80 VNL_GetBridgeState
+    0x0017   0x0016   0x0002c890 VNL_GetBridgeStatus
+    0x0018   0x0017   0x0001bee0 VNL_GetCurrentLogLevel
+    0x0019   0x0018   0x0002e280 VNL_GetDHCPConfigFilePath
+    0x001a   0x0019   0x000251c0 VNL_GetDHCPIPToMAC
+    0x001b   0x001a   0x0002e400 VNL_GetDHCPLeaseFilePath
+    0x001c   0x001b   0x00024b20 VNL_GetDHCPParam
+    0x001d   0x001c   0x0002e580 VNL_GetDHCPStatus
+    0x001e   0x001d   0x0001bf10 VNL_GetDefaultLogLevel
+    0x001f   0x001e   0x00021ff0 VNL_GetHostAdapterName
+    0x0020   0x001f   0x00015fa0 VNL_GetHostPacketFilterLogEvent
+    0x0021   0x0020   0x00013080 VNL_GetInstallBridge
+    0x0022   0x0021   0x00013350 VNL_GetInstallCustomNetworkConfig
+    0x0023   0x0022   0x00012db0 VNL_GetInstallDHCPOnlyIfUsed
+    0x0024   0x0023   0x00012ad0 VNL_GetInstallNATOnlyIfUsed
+    0x0025   0x0024   0x0002fc70 VNL_GetIsHost64Bit
+    0x0026   0x0025   0x000175c0 VNL_GetIsHostVista
+    0x0027   0x0026   0x00017550 VNL_GetIsHostWXP
+    0x0028   0x0027   0x000310c0 VNL_GetNATConfigFilePath
+    0x0029   0x0028   0x00031150 VNL_GetNATLeaseFilePath
+    0x002a   0x0029   0x000260a0 VNL_GetNATParam
+    0x002b   0x002a   0x000271a0 VNL_GetNATPortForward
+    0x002c   0x002b   0x00027f80 VNL_GetNATPrivPort
+    0x002d   0x002c   0x000311e0 VNL_GetNATStatus
+    0x002e   0x002d   0x00017300 VNL_GetNumberOfVnets
+    0x002f   0x002e   0x00014950 VNL_GetProductInstallPath
+    0x0030   0x002f   0x000127a0 VNL_GetSuppressDriverPrompt
+    0x0031   0x0030   0x00011f30 VNL_GetUsbProductInstallPath
+    0x0032   0x0031   0x00032790 VNL_GetUserIfStatus
+    0x0033   0x0032   0x0001b6e0 VNL_GetVNetFeatures
+    0x0034   0x0033   0x00010bf0 VNL_GetVnetAdapterAddr
+    0x0035   0x0034   0x00010e10 VNL_GetVnetAdapterConfigured
+    0x0036   0x0035   0x00024360 VNL_GetVnetAdapterStatus
+    0x0037   0x0036   0x00023d40 VNL_GetVnetAdapterUserSpecifiedName
+    0x0038   0x0037   0x00010970 VNL_GetVnetSubnetAddr
+    0x0039   0x0038   0x00010a60 VNL_GetVnetSubnetMask
+    0x003a   0x0039   0x0002d6d0 VNL_GetVnetUseDHCP
+    0x003b   0x003a   0x00030970 VNL_GetVnetUseNAT
+    0x003c   0x003b   0x0001b5c0 VNL_HasSufficientRightsToInstall
+    0x003d   0x003c   0x00014c80 VNL_ImportDatabaseFromFile
+    0x003e   0x003d   0x0002ead0 VNL_InstallDHCP
+    0x003f   0x003e   0x000353f0 VNL_InstallHcmon
+    0x0040   0x003f   0x00039430 VNL_InstallHcmonInf
+    0x0041   0x0040   0x00035ae0 VNL_InstallHostDrivers
+    0x0042   0x0041   0x0003a610 VNL_InstallInfW2K
+    0x0043   0x0042   0x00031220 VNL_InstallNAT
+    0x0044   0x0043   0x000215a0 VNL_InstallNetworkAdapter
+    0x0045   0x0044   0x000299e0 VNL_InstallNetworkBridge
+    0x0046   0x0045   0x0003a690 VNL_InstallUSB
+    0x0047   0x0046   0x00032550 VNL_InstallUserIf
+    0x0048   0x0047   0x00034f10 VNL_InstallVMCI
+    0x0049   0x0048   0x00034d70 VNL_InstallVMX86
+    0x004a   0x0049   0x000392d0 VNL_InstallVMX86Inf
+    0x004b   0x004a   0x000396f0 VNL_InstallVmkbd
+    0x004c   0x004b   0x00039590 VNL_InstallVmkbdInf
+    0x004d   0x004c   0x000356a0 VNL_InstallVmparport
+    0x004e   0x004d   0x0003ab20 VNL_InstallVmusb
+    0x004f   0x004e   0x00017230 VNL_OpenHostPacketFilter
+    0x0050   0x004f   0x00016bd0 VNL_OpenHostPacketFilterLog
+    0x0051   0x0050   0x00015bc0 VNL_PauseHostPacketFilterLog
+    0x0052   0x0051   0x00021230 VNL_QueryTeaming
+    0x0053   0x0052   0x00020fb0 VNL_QueryTeamingState
+    0x0054   0x0053   0x0001e430 VNL_ReinstallNetworkComponents
+    0x0055   0x0054   0x0003c780 VNL_RemoveAllNetworkDevices
+    0x0056   0x0055   0x00016cf0 VNL_RemoveHostPacketFilter
+    0x0057   0x0056   0x000156a0 VNL_RestoreDatabase
+    0x0058   0x0057   0x000152f0 VNL_RestoreDatabaseFromRegistry
+    0x0059   0x0058   0x00015d10 VNL_ResumeHostPacketFilterLog
+    0x005a   0x0059   0x0001bfb0 VNL_SafeToInstallNetworkComponents
+    0x005b   0x005a   0x0002a0a0 VNL_SafeToStopBridge
+    0x005c   0x005b   0x00029780 VNL_SetBridgeHints
+    0x005d   0x005c   0x0002a010 VNL_SetBridgeState
+    0x005e   0x005d   0x0001beb0 VNL_SetCurrentLogLevel
+    0x005f   0x005e   0x0002e910 VNL_SetDHCPFilePaths
+    0x0060   0x005f   0x00024db0 VNL_SetDHCPIPToMAC
+    0x0061   0x0060   0x00024630 VNL_SetDHCPParam
+    0x0062   0x0061   0x0001bf50 VNL_SetDefaultLogLevel
+    0x0063   0x0062   0x00016f10 VNL_SetHostPacketFilter
+    0x0064   0x0063   0x00014f20 VNL_SetInstallBridge
+    0x0065   0x0064   0x00014fb0 VNL_SetInstallCustomNetworkConfig
+    0x0066   0x0065   0x00014e90 VNL_SetInstallDHCPOnlyIfUsed
+    0x0067   0x0066   0x00014e00 VNL_SetInstallNATOnlyIfUsed
+    0x0068   0x0067   0x00025990 VNL_SetNATParam
+    0x0069   0x0068   0x00026c80 VNL_SetNATPortForward
+    0x006a   0x0069   0x00027c40 VNL_SetNATPrivPort
+    0x006b   0x006a   0x00014890 VNL_SetProductInstallPath
+    0x006c   0x006b   0x00014bc0 VNL_SetSuppressDriverPrompt
+    0x006d   0x006c   0x00014150 VNL_SetVnetAdapterAddr
+    0x006e   0x006d   0x00021f00 VNL_SetVnetAdapterUserSpecifiedName
+    0x006f   0x006e   0x00013e70 VNL_SetVnetSubnetAddr
+    0x0070   0x006f   0x00013f80 VNL_SetVnetSubnetMask
+    0x0071   0x0070   0x0002d720 VNL_SetVnetUseDHCP
+    0x0072   0x0071   0x00030770 VNL_SetVnetUseNAT
+    0x0073   0x0072   0x0002c850 VNL_StartBridge
+    0x0074   0x0073   0x0002d610 VNL_StartDHCP
+    0x0075   0x0074   0x00032ff0 VNL_StartHcmon
+    0x0076   0x0075   0x000306b0 VNL_StartNAT
+    0x0077   0x0076   0x00032700 VNL_StartUserIf
+    0x0078   0x0077   0x00032e70 VNL_StartVMCI
+    0x0079   0x0078   0x00032de0 VNL_StartVMX86
+    0x007a   0x0079   0x00034300 VNL_StartVmkbd
+    0x007b   0x007a   0x00033070 VNL_StartVmparport
+    0x007c   0x007b   0x0002d3d0 VNL_StopBridge
+    0x007d   0x007c   0x0002d690 VNL_StopDHCP
+    0x007e   0x007d   0x00033030 VNL_StopHcmon
+    0x007f   0x007e   0x00030730 VNL_StopNAT
+    0x0080   0x007f   0x00032740 VNL_StopUserIf
+    0x0081   0x0080   0x00032eb0 VNL_StopVMCI
+    0x0082   0x0081   0x00032e20 VNL_StopVMX86
+    0x0083   0x0082   0x00034360 VNL_StopVmkbd
+    0x0084   0x0083   0x000330b0 VNL_StopVmparport
+    0x0085   0x0084   0x0002d4d0 VNL_UninstallDHCP
+    0x0086   0x0085   0x00035570 VNL_UninstallHcmon
+    0x0087   0x0086   0x000394e0 VNL_UninstallHcmonInf
+    0x0088   0x0087   0x00035810 VNL_UninstallHostDrivers
+    0x0089   0x0088   0x0001d240 VNL_UninstallLegacyNetwork
+    0x008a   0x0089   0x000305b0 VNL_UninstallNAT
+    0x008b   0x008a   0x00021900 VNL_UninstallNetworkAdapter
+    0x008c   0x008b   0x00029ca0 VNL_UninstallNetworkBridge
+    0x008d   0x008c   0x0001e090 VNL_UninstallNetworkComponents
+    0x008e   0x008d   0x00018e40 VNL_UninstallNetworkInfFiles
+    0x008f   0x008e   0x0003a8b0 VNL_UninstallUSB
+    0x0090   0x008f   0x00032600 VNL_UninstallUserIf
+    0x0091   0x0090   0x00034fc0 VNL_UninstallVMCI
+    0x0092   0x0091   0x00034e20 VNL_UninstallVMX86
+    0x0093   0x0092   0x00039380 VNL_UninstallVMX86Inf
+    0x0094   0x0093   0x00039790 VNL_UninstallVmkbd
+    0x0095   0x0094   0x00039640 VNL_UninstallVmkbdInf
+    0x0096   0x0095   0x00035750 VNL_UninstallVmparport
+    0x0097   0x0096   0x0003ab10 VNL_UninstallVmusb
+    0x0098   0x0097   0x00024190 VNL_UpdateAdapterFromConfig
+    0x0099   0x0098   0x0002fad0 VNL_UpdateDHCPFromConfig
+    0x009a   0x0099   0x0003a2e0 VNL_UpdateDriverW2K
+    0x009b   0x009a   0x00032430 VNL_UpdateNATFromConfig
+    0x009c   0x009b   0x000172f0 VNL_Version

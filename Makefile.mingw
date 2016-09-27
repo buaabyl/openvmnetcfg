@@ -1,0 +1,14 @@
+DLLTOOL = @dlltool
+GCC     = @gcc
+SIZE    = @size
+
+CFLAGS = -I .
+
+all:a.exe
+	
+a.exe:main.c libvnetlib.c dlwin.c
+	$(GCC) $(CFLAGS) $^
+
+clean:
+	rm -rf a.exe
+
