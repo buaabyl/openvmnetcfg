@@ -8,7 +8,7 @@ We have to extract from Workstation now, but ws is really huge(500MB+).
 
 So I decided to create an open source UI, like vmnetcfg.
 
-## howto find the net api?
+## Howto find the net api?
 VMware have debug log, so I can change debug level, and the log can be verbose, make the guess of parameters easier. But I am not sure current guessed parameters is correct. If you crash, just create an Issues.
 
 ## Progress
