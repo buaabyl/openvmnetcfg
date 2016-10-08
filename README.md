@@ -3,11 +3,13 @@ An open source implement of vmnetcfg.
 
 VMware VMNetcfg is a useful tool, you can change IP, DNS, NAT quickly. But begin from VMware Player 3.x, it have been removed from then standard installer. You must extract from Workstation version, painful...
 
-In the older days, you can extract from VMware Player installer, and it removed from the installer from VMware Player 5.x... But we still have vmnetui.dll,VMNetUI_ShowStandalone. But now is removed too... We have to extract from Workstation, but it really huge(500MB+).
+In the older days, you can extract from VMware Player installer, and it removed from the installer from VMware Player 5.x... But we still have vmnetui.dll,VMNetUI_ShowStandalone. But now is removed from VMware Player 6.x too...
+We have to extract from Workstation now, but ws is really huge(500MB+).
 
 So I decided to create an open source UI, like vmnetcfg.
 
-VMware have debug log, so I can change debug level, and the log can be verbose, make the parameters guess easier. But I am not sure current parameters is correct, If you crash, just create an Issues.
+# howto find the net api?
+VMware have debug log, so I can change debug level, and the log can be verbose, make the guess of parameters easier. But I am not sure current guessed parameters is correct. If you crash, just create an Issues.
 
 ## Progress
 I have created a wrap library (https://github.com/buaabyl/openvmnetcfg/blob/master/libvnetlib.c) and guess api (https://github.com/buaabyl/openvmnetcfg/blob/master/vnetlib.h) for vnetlib.dll, which work fine.
