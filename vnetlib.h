@@ -36,19 +36,19 @@
 ////////////////////////////////////////////////////////////////////////////////
 #define VERSION_MAGIC   0x10000
 
-typedef int (*VNL_Version_pf)(void);
+typedef __stdcall int (*VNL_Version_pf)(void);
 VNL_Version_pf VNL_Version;
 
-typedef int (*VNL_GetIsHost64Bit_pf)(void);
+typedef __stdcall int (*VNL_GetIsHost64Bit_pf)(void);
 VNL_GetIsHost64Bit_pf VNL_GetIsHost64Bit;
 
-typedef int (*VNL_GetIsHostVista_pf)(void);
+typedef __stdcall int (*VNL_GetIsHostVista_pf)(void);
 VNL_GetIsHostVista_pf VNL_GetIsHostVista;
 
-typedef int (*VNL_GetIsHostWXP_pf)(void);
+typedef __stdcall int (*VNL_GetIsHostWXP_pf)(void);
 VNL_GetIsHostWXP_pf VNL_GetIsHostWXP;
 
-typedef int (*VNL_GetNumberOfVnets_pf)(void);
+typedef __stdcall int (*VNL_GetNumberOfVnets_pf)(void);
 VNL_GetNumberOfVnets_pf VNL_GetNumberOfVnets;
 
 //@return BOOL
@@ -87,24 +87,24 @@ VNL_SetDefaultLogLevel_pf VNL_SetDefaultLogLevel;
 ////////////////////////////////////////////////////////////////////////////////
 //@brief    Start/Stop control
 //@return   BOOL
-typedef int (*VNL_StartBridge_pf)(void);
-typedef int (*VNL_StartDHCP_pf)(void);
-typedef int (*VNL_StartNAT_pf)(void);
-typedef int (*VNL_StartHcmon_pf)(void);
-typedef int (*VNL_StartUserIf_pf)(void);
-typedef int (*VNL_StartVMCI_pf)(void);
-typedef int (*VNL_StartVMX86_pf)(void);
-typedef int (*VNL_StartVmkbd_pf)(void);
-typedef int (*VNL_StartVmparport_pf)(void);
-typedef int (*VNL_StopBridge_pf)(void);
-typedef int (*VNL_StopDHCP_pf)(void);
-typedef int (*VNL_StopNAT_pf)(void);
-typedef int (*VNL_StopHcmon_pf)(void);
-typedef int (*VNL_StopUserIf_pf)(void);
-typedef int (*VNL_StopVMCI_pf)(void);
-typedef int (*VNL_StopVMX86_pf)(void);
-typedef int (*VNL_StopVmkbd_pf)(void);
-typedef int (*VNL_StopVmparport_pf)(void);
+typedef __stdcall int (*VNL_StartBridge_pf)(void);
+typedef __stdcall int (*VNL_StartDHCP_pf)(void);
+typedef __stdcall int (*VNL_StartNAT_pf)(void);
+typedef __stdcall int (*VNL_StartHcmon_pf)(void);
+typedef __stdcall int (*VNL_StartUserIf_pf)(void);
+typedef __stdcall int (*VNL_StartVMCI_pf)(void);
+typedef __stdcall int (*VNL_StartVMX86_pf)(void);
+typedef __stdcall int (*VNL_StartVmkbd_pf)(void);
+typedef __stdcall int (*VNL_StartVmparport_pf)(void);
+typedef __stdcall int (*VNL_StopBridge_pf)(void);
+typedef __stdcall int (*VNL_StopDHCP_pf)(void);
+typedef __stdcall int (*VNL_StopNAT_pf)(void);
+typedef __stdcall int (*VNL_StopHcmon_pf)(void);
+typedef __stdcall int (*VNL_StopUserIf_pf)(void);
+typedef __stdcall int (*VNL_StopVMCI_pf)(void);
+typedef __stdcall int (*VNL_StopVMX86_pf)(void);
+typedef __stdcall int (*VNL_StopVmkbd_pf)(void);
+typedef __stdcall int (*VNL_StopVmparport_pf)(void);
 VNL_StartBridge_pf      VNL_StartBridge;
 VNL_StartDHCP_pf        VNL_StartDHCP;
 VNL_StartNAT_pf         VNL_StartNAT;
